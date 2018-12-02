@@ -1,5 +1,15 @@
+#root{
+  width: 100%;
+  height: 100%;
+}
 .App {
   text-align: center;
+  width: 100%;
+  height: 345%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(bck.PNG) !important;
 }
 
 .App-logo {
@@ -29,4 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.rcw-conversation-container > .rcw-header {
+  background-color: #8c1d40;
+}
+.rcw-messages-container {
+  background-color: #ffc425;
+}
+.rcw-launcher{
+  background-color: #ffc425;
+}
+.rcw-open-launcher{
+  content: url('bot.png') !important;
+  width: 45px;
+  height: 45px;
+}
+.rcw-message > .rcw-response{
+  background-color: #8c1d40 !important;
+}
+
+.rcw-message > .rcw-client{
+  background-color: whitesmoke !important;
+}
+.rcw-message > .rcw-response {
+  background-color: black;
+  color: white;
 }
